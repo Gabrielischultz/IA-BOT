@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 # Definir o caminho do arquivo CSV
-csv_path = r'C:\Users\dbras\Downloads\perguntas_respostas_merged_utf8_no_bom.csv'
+csv_path = r: *\perguntas_respostas_merged_utf8_no_bom.csv'
 
 # Verificar se o arquivo existe
 if not os.path.exists(csv_path):
@@ -55,3 +55,4 @@ while True:
         break
     resposta = buscar_resposta(pergunta)
     print("Bot:", resposta)
+
